@@ -12,6 +12,19 @@ ___________
 
 ### How to use
 
+API Endpoints
+- api/auth/register 
+    Register user account
+    Send a raw JSON body w/ Content-Type application/json
+    Ex:
+    ```
+        {
+            "username": "test_user",
+            "email": "test_user@gmail.com",
+            "password": "testpass"
+        }
+    ```
+    Returns status code 201 Created and
 ### Photos of project:
 
 ### Apps used:
@@ -19,3 +32,4 @@ ___________
 ### Coding styles I used:
 
 ### What I learned
+1. To use CryptoJS for password encryption instead of bcrypt.
