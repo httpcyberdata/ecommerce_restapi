@@ -12,8 +12,8 @@ mongoose.connect(process.env.MONGO_URL)
     .catch((err) => {
         console.log(err);     
     });
-    app.use('/api/auth', authRoute);
-    app.use('/api/users', userRoute);
+    app.use("/api/auth", authRoute);
+    app.use("/api/users", userRoute);
 
     app.listen(process.env.PORT, () => {
         console.log("Backend server is running")

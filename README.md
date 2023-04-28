@@ -1,4 +1,4 @@
-# Node.js E-Commerce App REST API with MongoDB
+# Node.js E-Commerce App REST API with MongoDB (abandoned)
 - Tutorial URL: https://www.youtube.com/watch?v=rMiRZ1iRC0A
 - Tutorial description: Node MongoDB eCommerce Rest API using Stripe payment method. Node.js shopping API tutorial using express, MongoDB, and JWT for beginners. 
 
@@ -24,7 +24,18 @@ API Endpoints
             "password": "testpass"
         }
     ```
-    Returns status code 201 Created and
+    Returns status code 201 Created.
+- api/auth/login
+    Login to user account
+    Send a Raw JSON Body w/ Content-Type application/json
+    Ex: 
+    ```
+        {
+            "username": "test_user",
+            "password": "testpass
+        }
+    ```
+
 ### Photos of project:
 
 ### Apps used:
